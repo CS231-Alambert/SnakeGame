@@ -1,0 +1,10 @@
+# 包含Python项目通用忽略规则：
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+venv/
+.env
+*.log
+# 依赖库：
+pygame==2.5.2及以上
