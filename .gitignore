@@ -1,10 +1,21 @@
-# 包含Python项目通用忽略规则：
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# 环境
 venv/
 .env
 *.log
-# 依赖库：
-pygame==2.5.2及以上
+
+# 游戏数据
+snake_scores.csv
